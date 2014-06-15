@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Dinamičke web aplikacije</title>
+  <link rel="stylesheet" href="stil.css"> 
+</head>
+<body>
+
+	<header class="site-header">
+	</header>
+	
+ 	<div class="forma row">
+		<div class="motologo column column-5">
+			<div class="logo"></div>
+			<p>Dominica sancta, quid remediis sunt.</p>	
+		</div>
+	
+		<div class="prijava column column-6">
+		  <h4>Ovdje se možete prijaviti</h4>
+			<form name="prijavaLogin" action="prijavaLogin.php" method="POST" >
+				<label for="username">Korisničko ime:</label><br/>
+				<input id="username" type="text" name="username"/><br/><br/>
+				
+				<label for="password">Lozinka:</label><br/>
+				<input id="password" type="password" name="password"/><br/><br/>
+				
+				<input type="submit" value="Prijavite se"/>
+			</form>
+		</div>
+		
+	</div>
+	
+	<div class="reg row">
+		<p>Nemate korisničko ime ni lozinku? Registrirajte se
+		<a href="registracija.html">OVDJE</a>
+	</div>
+	
+	<footer class="site-footer">
+		<p>Copyright &copy; ZKD, 2014</p>
+	</footer>
+  
+</body>
+</html>

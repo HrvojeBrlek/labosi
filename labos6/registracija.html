@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Dinamičke web aplikacije</title>
+  <link rel="stylesheet" href="stil.css"> 
+</head>
+<body>
+
+	<header class="site-header">
+	</header>
+	
+ 	<div class="forma row">
+		<div class="motologo column column-5">
+			<div class="logo"></div>
+			<p>Dominica sancta, quid remediis sunt.</p>	
+		</div>
+	
+		<div class="prijava column column-6">
+		  <h4>Ovdje se možete registrirati</h4>
+			<form name="registracija" action="registracija.php" method="POST" >
+				<label for="username">Korisničko ime:</label><br/>
+				<input id="username" type="text" name="username" placeholder="Minimalno 3 znaka" aria-describedby="username-format" required aria-required=”true” pattern="([A-Za-z-0-9]| |č|ć|ž|š|đ|Č|Ć|Ž|Š|Đ){3,21}" /><br/><br/>
+				
+				<label for="password">Lozinka:</label><br/>
+				<input id="password" type="password" name="password" placeholder="Minimalno 4 znakova" aria-describedby="pass-format" required aria-required=”true” pattern="([a-zA-Z-0-9]| |č|ć|ž|š|đ|Č|Ć|Ž|Š|Đ){4,29}" title="Lozinka mora imati minimalno 4 znakova"/><br/><br/>
+				
+				<label for="imePre">Ime i prezime:</label><br/>
+				<input id="imePre" type="text" name="imePre"aria-describedby="imePrezime-format" required aria-required=”true”/><br/><br/>
+				
+				<input type="submit" value="Registrirajte se"/>
+			</form>
+		</div>
+		
+	</div>
+	<footer class="site-footer">
+		<p>Copyright &copy; ZKD, 2014</p>
+	</footer>
+  
+</body>
+</html>

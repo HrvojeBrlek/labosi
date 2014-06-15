@@ -1,0 +1,132 @@
+
+.column-1 { width: 60px; }
+.column-2 { width: 140px; }
+.column-3 { width: 220px; }
+.column-4 { width: 300px; }
+.column-5 { width: 380px; }
+.column-6 { width: 460px; }
+.column-7 { width: 540px; }
+.column-8 { width: 620px; }
+.column-9 { width: 700px; }
+.column-10 { width: 780px; }
+.column-11 { width: 860px; }
+.column-12 { width: 940px; }
+
+
+/* Temeljna klasa kolumne */
+.column {
+	margin: 0 10px 0 10px;
+	overflow: hidden;
+	float: left;
+}
+
+/* Redak */
+.row {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+body{
+margin:0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link{
+text-decoration:none;
+}
+
+.site-header{
+	background: #7A0A12;
+	width:100%;
+	height:90px;
+}
+.izbornik{
+	text-align:center;
+	margin-top:25px;
+	padding-top:50px;
+	padding-bottom:50px;
+	border:1px solid;
+}
+
+.motologo{
+	float: left;
+	padding-top: 50px;
+}
+
+.motologo p{
+	text-align: center;
+}
+
+.logo{
+	position: relative;
+	background: url(logo.png);
+	width: 200px;
+	height: 76px;
+	left: 70px;
+	margin: 0 0 0 10px;
+}
+
+.forma{
+	padding-top: 20px;
+}
+
+.prijava{
+	float: right;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.prijava h4{
+	text-align: center;
+}
+
+.user{
+	float:right;
+	}
+	
+.odjava{
+height:76px;
+}
+
+.podaci{
+	height: 900px;
+}
+
+.novilogo{
+	float: left;
+}
+
+.novilogo h1{
+	position: relative;
+	left: -5px;
+}
+
+.site-footer{
+	left:0px;
+	bottom:0px;
+	position:fixed;
+	height:30px;
+	width:100%;
+	padding:20px;
+	text-align:center;
+	background:#14786D;
+	
+}
+
+th,td
+{
+padding:5px;
+border:1px solid black;
+border-collapse:collapse;
+}
+
+.unosPacijenti{
+	height: 700px;
+}
+
+
+
